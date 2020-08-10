@@ -1,0 +1,14 @@
+.box {
+  color: rgb(40, 44, 52);
+  display: flex;
+  width: 20%;
+  padding: 1rem;
+  text-align: left;
+  flex-direction: column;
+  margin: 1rem;
+}
+
+.box img {
+  width: 50%;
+  height: 50%;
+}
