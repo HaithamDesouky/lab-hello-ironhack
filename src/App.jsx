@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import logo from './logo.svg';
 import './App.css';
 import BoxComponent from './components/box';
+import StaffInformation from './components/StaffInformation';
 
 class App extends Component {
   render() {
@@ -26,6 +27,11 @@ class App extends Component {
 
               <a href="">Awesome!</a>
             </div>
+
+            <StaffInformation name="Haitham" role="Manager">
+              <img src="https://source.unsplash.com/random" alt="" />
+            </StaffInformation>
+            <StaffInformation name="LeBron" role="Assistant"></StaffInformation>
 
             <div className="white">
               <BoxComponent

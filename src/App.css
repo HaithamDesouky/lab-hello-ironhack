@@ -69,3 +69,7 @@ a {
   align-items: center;
   padding: 3rem;
 }
+
+img {
+  max-width: 100%;
+}
